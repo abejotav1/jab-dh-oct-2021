@@ -13,3 +13,9 @@ en lugar del valor "index.js" que se tiene por defecto
 npm install express --save
 
 //Se sigue con app.js para la configuracion de express y el puerto que se este usando
+
+Para acceder al servidor que se creo desde una ventana del servidor con el nombre del puerto.
+
+http://localhost:3000/ 
+
+
