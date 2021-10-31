@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto';
+    background-color: #EAC926;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+p{
+    font-size: 12px;
+};
+
+h3{
+    font-size: 24px;
+};
+
+.precio{
+    font-size: 18px;
+};
+
+.descuentos{
+    font-size:16px;
+};
+
+li a{
+    text-decoration:none;
+};
+
+.burger-menu{
+    background-color:#1259c3;
+    justify-content:center;
+    width:40px;
+    margin:40px;
+};
+
