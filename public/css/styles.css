@@ -4,6 +4,11 @@ body{
     padding-left: 5%;
     padding-right: 5%;
 }
+main{
+    width: 50%;
+    padding: 10px;
+}
+
 p{
     font-size: 12px;
 };
@@ -24,10 +29,105 @@ li a{
     text-decoration:none;
 };
 
-.burger-menu{
-    background-color:#1259c3;
-    justify-content:center;
-    width:40px;
-    margin:40px;
-};
+.menu i {
+    text-decoration: none;
+  }
+  
+.menu{
+    background-color: #0044aa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    height: 25px;
+    margin: 10px 0px 20px 0px;
+    padding: 8px;
+    width: 20px;
+}
 
+.tarjeta,.regalo,.secure{
+    color: #0044aa;
+    font-size: 45px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 20px;
+}
+
+.truck{
+    color: #39b54a;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 5px;
+    margin: 0px 0px 5px 0px;
+    padding: 8px;
+    width: 20px;
+}
+
+.imagen1,.imagen2,.imagen3,.imagen4{
+    width: 100%;
+    border-top:solid 5px #ebebeb;
+    border-bottom:solid 1px #ebebeb;
+    border-left:solid 5px #ebebeb;
+    border-right:solid 5px #ebebeb;
+    background-color: #fff;
+    margin:5px,5px,1px,5px;
+    box-sizing:border_box;
+}
+.oferta1,.oferta2,.oferta3,.oferta4{
+    width: 100%;
+    border-top:solid 1px #ebebeb;
+    border-bottom:solid 5px #ebebeb;
+    border-left:solid 5px #ebebeb;
+    border-right:solid 5px #ebebeb;
+    background-color: #fff;
+    margin: 1px,5px,5px,5px;
+    box-sizing:border_box;
+}
+
+.barrabusqueda{
+    padding: 10px;
+    position: center;
+    margin: 10px;
+    padding-top: 6px;
+    height: 25px;
+    align-content: center;
+    align-items: center;
+}
+.formulariodebarra{
+    overflow: hidden;
+	position: relative;
+}
+*{
+    list-style:none;
+}
+
+@media(max-width:361px){
+    /*Tablets*/
+    header div.barrabusqueda{
+        display:none;
+    }
+
+    main {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    main div.oferta1{
+        display:none;
+    }
+    main div.oferta2{
+        display:none;
+    }
+    main div.oferta3{
+        display:none;
+    }
+    main div.oferta4{
+        display:none;
+    }
+
+}
+
+@media(max-width:769px){
+    /*Desktop*/
+    header div.menu{
+        display:none;
+    }
+}

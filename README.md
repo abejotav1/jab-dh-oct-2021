@@ -12,6 +12,12 @@ en lugar del valor "index.js" que se tiene por defecto
 //En la terminal de VS se instala express 
 npm install express --save
 
+// Tambien se pude instalar nodemon
+npm install --save-dev nodemon
+Por lo tanto el programa se ejecutaria con:
+nodemon app.js
+
+
 //Se sigue con app.js para la configuracion de express y el puerto que se este usando
 
 Para acceder al servidor que se creo desde una ventana del servidor con el nombre del puerto.
