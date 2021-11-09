@@ -14,8 +14,16 @@ npm install express --save
 
 // Tambien se pude instalar nodemon
 npm install --save-dev nodemon
+El script se modifica
+
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+
 Por lo tanto el programa se ejecutaria con:
-nodemon app.js
+npm run start
+
+Y se detiende de igial manera con Control + C
 
 
 //Se sigue con app.js para la configuracion de express y el puerto que se este usando
@@ -25,3 +33,4 @@ Para acceder al servidor que se creo desde una ventana del servidor con el nombr
 http://localhost:3000/ 
 
 
+//si utilizas 
