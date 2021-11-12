@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name"viewport" content="width=device-width,initial-scale=1.0">
+        <title>Login Mercado Liebre</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"rel="stylesheet" />
+        <link rel="stylesheet" href="css/styleslogin.css">
+        
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <!-- Formularios -->
+        <form action="/crear-producto" method="post" class="create-form">
+            <div class="control-formulario">
+                <label>Nombre del producto</label>
+                <input type="text" name="nombre">
+            </div>
+            <div class="control-formulario">
+                <label>Precio</label>
+                <input type="text" name="precio" placeholder="123.45">
+            </div>
+            <div class="control-formulario">
+                <label>Categoria:</label>
+                <select name="categoria">
+                    <option value ="hogar">Hogar</option>
+                    <option value ="electro">Electro</option>
+                    <option value ="indumentaria">Indumentaria</option>
+                </select>
+            </div>
+            <div class="control-formulario">
+                <label>Ciudad:</label>
+                <select name="ciudad">
+                    <option value ="baires">Buenos Aires</option>
+                    <option value ="ros">Rosario</option>
+                    <option value ="mdz">Mendoza</option>
+                </select>
+            </div>
+            <div class="control-formulario">
+                <label>Descripción</label>
+                <textarea name="descripcion"></textarea>
+            </div>
+            <div class="control-formulario">
+                <label>Está en oferta</label>
+                <input type="radio" name="enOferta">
+            </div>      
+            <button type="reset" class="boton-formulario">Borrar</button>  
+            <button type="submit" class="boton-formulario">Guardar</button>  
+        </form>
+
+
+
+    </body>
+</html>

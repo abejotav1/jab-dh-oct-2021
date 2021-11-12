@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+.registro{
+    padding: 20px 15px;
+}
+
+.control-registro{
+    margin-bottom: 15px;
+}
+
+.control-registro label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control-perfil label{
+
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.control{
+    width:100%;
+    padding: 8px;
+}
+
+.boton-registro{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

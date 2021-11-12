@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name"viewport" content="width=device-width,initial-scale=1.0">
+        <title>Crea tu cuenta</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"rel="stylesheet" />
+        <link rel="stylesheet" href="css/stylesregister.css">
+        
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <!-- Formularios -->
+        <form action=" " method="post" class="registro">
+            <div class="control-registro">
+                <label>Nombre y apellido</label>
+                <input type="text" name="nombre" placeholder="Coloca tu nombre" class="control">
+            </div>
+
+            <div class="control-registro">
+                <label>Nombre de usuario@</label>
+                <input type="text" name="user" placeholder="@usuario" class="control">
+            </div>
+
+            <div class="control-registro">
+                <label>Fecha de Nacimiento</label>
+                <input type="date" name="fechaNac">
+            </div>
+
+            <div class="control-registro">
+                <label>Domicilio</label>
+                <input type="text" name="domicilio" placeholder="Calle y numero" class="control">
+            </div>
+
+            <div class="control-perfil">
+                <label>Perfil de usuario: </label>
+                <label for="comprador">Comprar</label>
+                <input type="radio" name="perfil" value="comprar" id=comprador>
+                <label for="vendedor">Vender</label>
+                <input type="radio" name="perfil" value="vender" id=comprador>
+            </div>  
+
+            <div class="control-registro">
+                <label>Categoria de interes:</label>
+
+                <label>Electro
+                    <input type="checkbox" name="categorias" value="electro" id=electro>
+                </label>
+                <label>Moda
+                    <input type="checkbox" name="categorias" value="moda" id=moda>
+                </label>
+                <label>Hogar
+                    <input type="checkbox" name="categorias" value="hogar" id=hogar>
+                </label>
+                <label>Jugueteria
+                    <input type="checkbox" name="categorias" value="jugueteria" id=jugueteria>
+                </label>
+                <label>Vida sana
+                    <input type="checkbox" name="categorias" value="vida" id=vida>
+                </label>
+            </div>
+
+            <div class="control-registro">
+                <label>Foto de usuario</label>
+                <input type="file" name="avatar" accept=".jpg,.png,.jpeg" class="control">
+            </div>
+
+            <div class="control-registro">
+                <label>Contraseña</label>
+                <input type="password" name="password1" placeholder="Escribe tu contraseña" class="control">
+            </div>
+
+            <div class="control-registro">
+                <label>Confirmar contraseña</label>
+                <input type="password" name="password2" placeholder="Repite tu contraseña" class="control">
+            </div>
+
+            <button type="submit" class="boton-registro">Enviar</a></button>                
+            <button type="reset" class="boton-registro">Borrar</button>  
+
+        </form>
+
+
+
+    </body>
+</html>
