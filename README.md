@@ -14,11 +14,21 @@ npm install express --save
 
 // Tambien se pude instalar nodemon
 npm install --save-dev nodemon
-El script se modifica
+El script se modifica dentro del package.Json
 
+Valores por defecto
+---------------------------
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+--------------------------
+
+Valores a cambiar
+--------------------------
   "scripts": {
     "start": "nodemon app.js"
   },
+--------------------------
 
 Por lo tanto el programa se ejecutaria con:
 npm run start
