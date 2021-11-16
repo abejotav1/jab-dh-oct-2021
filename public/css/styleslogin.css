@@ -23,7 +23,7 @@
     padding: 8px;
 }
 
-.boton-registro{
+.boton-registro2{
     background-color: #39b54a;
     border: none;
     font-size: 20px;
@@ -31,3 +31,18 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.boton-registro1:hover{
+    background-color: #0022AA;
+}
+
+.boton-registro1{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 500ms;
+}
+
