@@ -230,6 +230,13 @@ footer i{
     padding: 5px;
 }
 
+footer i{
+    color: #1259c3;
+    font-size: 35px;
+    transition: color 500ms;
+    padding: 5px;
+}
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
@@ -289,7 +296,6 @@ footer i{
     }
 
     .main-navbar{
-        border:dotted 2px red;
         display: flex;
         justify-content: space-between;
     }
