@@ -17,16 +17,13 @@ p{
     font-size: 12px;
 }
 
-div.top-header{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-}
+
 
 header div.top-header p{
     width: 100%;
     text-align: center;
     margin-top: 10px;
+
 }
 
 header{
@@ -59,6 +56,9 @@ header ul li{
 header ul li a{
     text-decoration: none;
     color: #000;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
 }
 
 header .form .input{
@@ -74,6 +74,10 @@ header .form .submit{
     border: 1px solid #000;
     color: #666;
     width: 10%;
+}
+
+.main-navbar{
+    display: none;
 }
 
 div.burger-menu{
@@ -129,6 +133,22 @@ section.banner img{
 main{
     width: 90%;
     margin: 0 auto;
+}
+
+div.extras{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    text-align: center;
+    border:dotted red;
+}
+
+
+div.copy-extras{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    padding-top: 10px;
 }
 
 main article .main-article .fas.fa-truck{
@@ -195,6 +215,21 @@ article div.main-article{
     padding: 15px;
 }
 
+footer{
+    background-color: #EAC926;
+}
+
+footer i:hover{
+    color: #41af16;
+}
+
+footer i{
+    color: #1259c3;
+    font-size: 35px;
+    transition: color 500ms;
+    padding: 5px;
+}
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
@@ -210,6 +245,16 @@ article div.main-article{
     
     main section div.products article{
         width: 45%;
+    }
+
+    div.copy-header{
+        max-width:400px;
+        text-align:start;
+        margin-top: 10px;
+    }
+
+    div.logo{
+        max-width:300px;
     }
 
     .price,
@@ -228,6 +273,36 @@ article div.main-article{
     }
 
     div.top-header  {
-      flex-wrap: nowrap;
+      display: flex;
+      justify-content: space-between;
     }
+
+    div.logo{
+        max-width:350px;
+    }
+
+    div.copy-header{
+        max-width:350px;
+        text-align: right;
+        margin-top: 30px;
+
+    }
+
+    .main-navbar{
+        border:dotted 2px red;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
 }
