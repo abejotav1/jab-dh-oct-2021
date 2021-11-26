@@ -40,7 +40,6 @@ Y se detiende de igial manera con Control + C
 
 Para acceder al servidor que se creo desde una ventana del servidor con el nombre del puerto.
 
-http://localhost:3000/ 
+http://localhost:3000/ o el servidor que hayas seleccionado
 
 
-//si utilizas 
