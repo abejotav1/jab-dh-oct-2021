@@ -33,7 +33,7 @@ Valores a cambiar
 Por lo tanto el programa se ejecutaria con:
 npm run start
 
-Y se detiende de igial manera con Control + C
+Y se detiende de igual manera con Control + C
 
 
 //Se sigue con app.js para la configuracion de express y el puerto que se este usando
